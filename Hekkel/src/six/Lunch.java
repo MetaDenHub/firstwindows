@@ -1,0 +1,45 @@
+package six;
+
+class Soup1 {
+	private Soup1() {
+	}
+
+	// разрешаем создание объектов в статическом методе:
+	public static Soup1 makeSoup() {
+		return new Soup1();
+	}
+}
+
+class Soup2 {
+	private Soup2() {
+	}
+
+	private static Soup2 ps1 = new Soup2();
+
+	public static Soup2 access() {
+		// TODO Auto-generated method stub
+		return ps1;
+	}
+
+	public void f() {
+	}
+}
+
+public class Lunch {
+	void TestPrivate() {
+		// ! Soup soup = new Soup();
+	}
+
+	void testStatic() {
+		Soup1 soup = Soup1.makeSoup();
+	}
+
+	void testSingleton() {
+		Soup2.access().f();
+	}
+
+	public static void main(String[] args) {
+
+	}
+
+}

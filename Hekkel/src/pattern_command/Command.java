@@ -1,4 +1,4 @@
-package pattern;
+package pattern_command;
 
 public class Command {
 

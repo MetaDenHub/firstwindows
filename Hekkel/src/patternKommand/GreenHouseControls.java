@@ -1,4 +1,4 @@
-package tenKommandPattern;
+package patternKommand;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -145,7 +145,7 @@ public class GreenHouseControls extends Controller {
 		}
 
 		public String toString() {
-			return "ÁAM!";
+			return "ï¿½AM!";
 		}
 	}
 

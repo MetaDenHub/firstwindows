@@ -1,6 +1,6 @@
-package tenKommandPattern;
+package patternKommand;
 
-import tenKommandPattern.MoistureControls.Terminate;
+import patternKommand.MoistureControls.Terminate;
 
 public class MoistureController {
 	public static void main(String[] args) {

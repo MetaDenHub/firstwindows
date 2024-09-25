@@ -1,4 +1,4 @@
-package tenKommandPattern;
+package patternKommand;
 
 import java.util.Iterator;
 import java.util.LinkedList;

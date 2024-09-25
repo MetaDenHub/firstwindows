@@ -1,4 +1,4 @@
-package tenKommandPattern;
+package patternKommand;
 
 public class MoistureControls extends GreenHouseControls {
 	public static class Terminate extends Event {

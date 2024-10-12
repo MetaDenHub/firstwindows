@@ -26,8 +26,8 @@ public class Euclide {
 	    if (max < min) {int x = max; max = min; min = x;}
 	    remainder = max % min; 
 	  }
-
 	  return min;
 	}
+
 
 }
